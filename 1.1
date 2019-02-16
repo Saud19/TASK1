@@ -1,0 +1,14 @@
+# Task 1.1
+
+Student_Details = []
+Index = 0
+bool= True
+
+while Index < 3:
+     Student_Name = input("Please enter the Students Name: ")
+     Email_ID = input("Please enter the students Email ID: ")
+     Student_Details += [(Student_Name + "#" + Email_ID)]
+     Index += 1
+print("Name AND Email ID" "\n")
+print(*Student_Details, sep = "\n")
+
